@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Calibri');
+@import url('https://fonts.googleapis.com/css?family=Times New roman');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.main{
+    
+    max-width: 1000px;
+    min-width: 500px;
+    margin: auto;
+    border: 1px solid grey;
+    height:auto;
+}
+.main2{
+    max-width: 1000px;
+    min-width: 500px;
+    margin: auto;
+    border: 1px solid grey;
+    height:700px; 
+}
+.header {
+    border: 1px solid grey;
+    display: grid;
+    grid-template-columns:80px auto;
+}
+.menus {
+    padding:20px;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.menus a {
+    min-width: 80px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border-radius: 6px;
+    padding: 4px 20px 4px 20px;
+
+}
+.menus a:hover {
+    color:white;
+    background-color: black;
+}
+.image{
+width: 90px;
+}
+.avatar{
+    height: 500px;
+    width: 500px;
+    margin-left: 200px;
+}
+.text{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text2{
+    margin-left: 40%;
+}
+.imageDesDisciplines{
+    width: 700px;
+}
+.textDiscipline{
+    margin-top: 10px;
+    margin-bottom: 20px;;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.textDiscipline2{
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+font-size: 25px;
+}
+.imageAccueil{
+    width: 1000px;
+    height: 560px;
+}
